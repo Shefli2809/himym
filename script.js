@@ -29,4 +29,5 @@ noBtn.addEventListener("mouseover", () => {
 yayBtn.addEventListener("click", () => {
   question.innerHTML = "SUIT UP and meet me at discord!";
   gif.src = "https://media.tenor.com/EnntmjbAqeoAAAAM/himym-suit-up.gif";
+  yayBtn.style.display = "none"
 });
